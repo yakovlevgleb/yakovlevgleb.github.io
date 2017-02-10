@@ -428,7 +428,7 @@ body {
 }
 
 .scheme__item img {
-  margin-bottom: 29px;
+    margin-bottom: 29px;
 }
 
 .scheme__item h3 {
@@ -436,8 +436,7 @@ body {
     font-weight: 700;
     line-height: 24px;
     color: #2c2e37;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
 }
 
 .scheme__item p {
@@ -446,4 +445,317 @@ body {
     line-height: 24px;
     color: #949494;
     margin: 0;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 477px;
+    background: url("../img/background_travel.jpg") no-repeat;
+    background-position: bottom;
+    background-color: #ffffff;
+}
+
+.suggestions__stars {
+    margin-bottom: 116px;
+}
+
+.suggestions h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 3px;
+    color: #2c2e37;
+    text-transform: uppercase;
+    margin: 0 0 147px;
+}
+
+.suggestions__item {
+    display: inline-flex;
+    flex-direction: column;
+    width: 200px;
+    height: 382px;
+    margin-right: 35px;
+    padding-left: 19px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+}
+
+.suggestions__item h1 {
+    font-size: 28px;
+    line-height: 63px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+.suggestions__item p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 100px;
+}
+
+.suggestions__old-cost {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: line-through;
+    margin: 0 42px 0 0;
+}
+
+.suggestions__new-cost {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+}
+
+.suggestions__item--carpathian {
+    background-image: url("../img/carpathian.jpg");
+}
+
+.suggestions__item--alps {
+    background-image: url("../img/alps.jpg");
+}
+
+.suggestions__item--pyrenees {
+    background-image: url("../img/pyrenees.jpg");
+}
+
+.suggestions__item--rocky {
+    background-image: url("../img/rocky.jpg");
+}
+
+.suggestions__item--kavkaz {
+    margin: 0;
+    background-image: url("../img/kavkaz.jpg");
+}
+
+.vendors {
+    background-color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 114px;
+    padding-bottom: 64px;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 3px;
+    color: #2c2e37;
+    text-transform: uppercase;
+    margin: 0 0 58px;
+}
+
+.gallery__grid {
+    display: grid;
+    grid-template-areas: "left topcenter right" "left center right" "foot1 center foot2";
+}
+
+.gallery__grid img {
+    margin: 15px;
+}
+
+.gallery__grid img:nth-child(1) {
+    grid-column: 2;
+    grid-row: 1;
+    grid-area: left;
+}
+
+.gallery__grid img:nth-child(2) {
+    grid-column: 4;
+    grid-row: 1;
+    grid-area: topcenter;
+}
+
+.gallery__grid img:nth-child(3) {
+    grid-column: 6;
+    grid-row: 1;
+    grid-area: right;
+}
+
+.gallery__grid img:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+    grid-area: foot1;
+}
+
+.gallery__grid img:nth-child(5) {
+    grid-column: 4;
+    grid-row: 2;
+    grid-area: center;
+}
+
+.gallery__grid img:nth-child(6) {
+    grid-column: 6;
+    grid-row: 2;
+    grid-area: foot2;
+}
+
+.vendors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clients-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 112px;
+    padding-bottom: 164px;
+    background-color: #ffffff;
+    background-image: url("../img/background_footer.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1278px;
+}
+
+.clients-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 3px;
+    color: #2c2e37;
+    text-transform: uppercase;
+    margin: 0 0 134px;
+}
+
+.clients-info__coometation {
+    display: flex;
+    margin-bottom: 140px;
+}
+
+.clients-info__comment {
+    width: 555px;
+}
+
+.clients-info__comment--left {
+    margin-right: 30px;
+}
+
+.clients-info__comment p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #adadad;
+    margin: 0 0 30px;
+}
+
+.clients-info__id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clients-info__id img {
+    margin-right: 19px;
+}
+
+.clients-info__name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #36aeea;
+    margin: 0 4px 0 0;
+}
+
+.clients-info__workplace {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #36aeea;
+    margin: 0;
+}
+
+.clients-info__contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 515px;
+    height: 496px;
+    background-image: url("../img/form-back.png");
+    background-repeat: no-repeat;
+    padding-top: 41px;
+    padding-bottom: 50px;
+}
+
+.clients-info__contact-form h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+    color: #36aeea;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.clients-info__contact-form p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #383e4a;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.clients-info__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-info__textbox {
+    margin-bottom: 20px;
+}
+
+.clients-info__textbox {
+  border-width: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 20px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #cccccc;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 454px;
+}
+
+.clients-info__btn {
+    border-width: 1px;
+    border-color: #36aeea;
+    border-style: solid;
+    padding: 27px 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: auto;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #36aeea;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #3e5f6a;
 }
