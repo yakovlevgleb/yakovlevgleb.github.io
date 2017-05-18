@@ -1,3 +1,3 @@
 # yakovlevgleb.github.io
 
-[1](https://yakovlevgleb.github.io/mountains/)
+[mountains](https://yakovlevgleb.github.io/mountains/)
