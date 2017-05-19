@@ -303,7 +303,7 @@ body {
 }
 
 .oder__form {
-    width: 855px;
+    width: 856px;
     border: solid 3px #ffffff;
     border-radius: 3px;
     background-color: #ffffff;
@@ -320,6 +320,7 @@ body {
     border: none;
     width: 278px;
     padding-left: 20px;
+    background-color: #ffffff;
 }
 
 .oder__textbox--phone {
