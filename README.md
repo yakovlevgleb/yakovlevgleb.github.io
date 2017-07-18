@@ -4,3 +4,5 @@
 - [sedona](https://yakovlevgleb.github.io/sedona/)
 - [Panakeia](https://yakovlevgleb.github.io/Panakeia/)
 - [mishka mobilefirst adaptive less](https://yakovlevgleb.github.io/mishka/)
+- [SWIEZERYBY](https://yakovlevgleb.github.io/SWIEZERYBY/)
+- [adaptive blogg](https://yakovlevgleb.github.io/build/)
