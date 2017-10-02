@@ -1,0 +1,552 @@
+@import normalize
+
+@font-face
+	font-family: 'AgoraBold'
+
+	src: url('../fonts/pfagorasanspro-bold.ttf')
+
+@font-face
+	font-family: 'AgoraRegular'
+
+	src: url('../fonts/pfagorasanspro-reg.ttf')
+
+@font-face
+	font-family: 'AgoraLight'
+
+	src: url('../fonts/pfagorasanspro-light.ttf')
+
+@font-face
+	font-family: 'AgoraThin'
+
+	src: url('../fonts/pfagorasanspro-thin.ttf')
+
+
+html,
+body
+  width: 100%
+  height: 100%
+
+a
+	&:hover
+		color: #000!important
+		text-decoration: none!important
+		opacity: 0.7!important
+
+
+body
+	width: 100%
+
+	background: #fff
+
+	font-family: 'AgoraLight', Arial, sans-serif
+
+.container
+  width: 1079px
+  margin: 0 auto
+
+.button
+	display: inline-block
+
+	max-width: 378px
+	padding: 15px 34px
+
+	vertical-align: top
+	text-decoration: none
+	letter-spacing: 1px
+	text-transform: uppercase
+
+	color: #212121
+	border: 1px solid #212121
+	border-radius: 8px
+
+	font-family: 'AgoraThin', sans-serif
+	font-size: 26px
+	line-height: auto
+
+	&:hover
+		opacity: 0.8
+
+	&--red
+		color: #fff
+		border-color: #e11a27
+		background-color: #e11a27
+
+		&:hover
+			opacity: 0.8
+
+.header
+	padding-top: 30px
+	padding-bottom: 30px
+
+	text-align: center
+
+.nav
+	button
+		margin: 0 !important
+		padding: 0 !important
+
+		border: none !important
+
+		font-size: 0
+		&::before
+			position: absolute
+			top: 10%
+			left: 0
+
+			width: 20px
+			height: 20px
+
+			content: ""
+			cursor: pointer
+
+			background-image: url('../img/icon-menu-open.svg')
+			background-repeat: no-repeat
+			background-position: center
+
+.header__phone
+	padding: 10px 36px
+
+	color: #212121
+	border-radius: 8px
+	background-color: #ffd200
+
+	font-family: 'AgoraLight', sans-serif
+	font-size: 16px
+
+	text-decoration-style: dotted
+
+.header__logout
+	margin: 0 !important
+	padding: 0 !important
+
+	cursor: pointer
+
+	border: none !important
+
+	font-size: 0
+	&::before
+		position: absolute
+		top: 15%
+		right: 0
+
+		width: 33px
+		height: 29px
+
+		content: ""
+
+		background-image: url('../img/logout.png')
+		background-repeat: no-repeat
+		background-position: center
+
+.intro
+	padding-top: 54px
+
+	text-align: center
+
+	background-image: url('../img/main_banner.jpg')
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+
+	h2
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 48px
+		span
+			font-size: 60px
+
+	p
+		margin-bottom: 70px
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 24px
+	.button
+		margin-bottom: 200px
+
+.pluses
+	padding-top: 55px
+	padding-bottom: 92px
+
+	text-align: center
+	&__item
+		position: relative
+
+		padding-top: 65px
+		img
+			margin-bottom: 65px
+		&::before
+			position: absolute
+			top: 85px
+			left: 50%
+
+			width: 134px
+			height: 134px
+
+			content: ""
+			transform: translate(-50%, -50%)
+
+			border: 5px solid #ffd200
+			border-radius: 100px
+
+		h4
+			color: #000
+
+			font-family: 'AgoraLight', sans-serif
+			font-style: 24px
+
+.advantage
+	padding-top: 58px
+	padding-bottom: 77px
+
+	text-align: center
+
+	background-color: #f3f0e7
+	h2
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 48px
+		span
+			font-size: 60px
+
+	&__item
+		margin-bottom: 60px
+		img
+			margin-bottom: 20px
+		h4
+			font-family: 'AgoraLight', sans-serif
+			font-size: 24px
+		p
+			font-family: 'AgoraLight', sans-serif
+			font-size: 16px
+
+.solutions
+	margin-bottom: 83px
+	padding-top: 58px
+	padding-bottom: 77px
+
+	text-align: center
+
+	h2
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 48px
+		span
+			font-size: 60px
+
+	&__item
+		margin: 30px
+		padding-top: 45px
+		padding-bottom: 14px
+
+		border: 1px solid #ffefa5
+		border-radius: 8px
+		background-color: #ffd200
+
+		h4
+			margin-bottom: 45px
+
+			letter-spacing: 1px
+
+			font-family: 'AgoraRegular', sans-serif
+			font-size: 36px
+
+		&--bestseller
+			position: relative
+			&::before
+				position: absolute
+				top: -20px
+				left: 0
+
+				width: 100%
+				height: 44px
+
+				content: ""
+
+				background-image: url('../img/bestseller.png')
+				background-repeat: no-repeat
+				background-position: center
+
+	&__content
+		position: relative
+
+		width: 100%
+		min-height: 282px
+		margin-bottom: 16px
+		padding-top: 22px
+		padding-bottom: 70px
+
+		text-align: left
+
+		background-color: #fff
+
+		ul
+			padding: 0
+			padding-left: 59px
+
+			list-style: none
+
+		li
+			position: relative
+
+			font-family: 'AgoraRegular', sans-serif
+			font-size: 18px
+
+			&::before
+				position: absolute
+				top: 12px
+				left: -28px
+
+				width: 20px
+				height: 20px
+
+				content: ""
+				transform: translate(-50%, -50%)
+
+				background-image: url('../img/checked.png')
+				background-repeat: no-repeat
+				background-position: center
+
+	&__cost
+		position: absolute
+		bottom: 0
+
+		width: 100%
+
+		text-align: center
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 60px
+
+
+	&__bottom-text
+		letter-spacing: 1px
+
+		color: #000
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 22px
+
+
+.testimonials
+	padding-top: 40px
+	padding-bottom: 54px
+
+	background-image: url('../img/second_banner.jpg')
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+
+	h2
+		margin-bottom: 70px
+
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 48px
+		span
+			font-size: 60px
+
+	&__autor
+		position: relative
+
+		margin-bottom: 70px
+		padding-left: 178px
+
+		&::before
+			position: absolute
+			top: 30px
+			left: 75px
+
+			width: 158px
+			height: 158px
+
+			content: ""
+			transform: translate(-50%, -50%)
+
+			background-image: url('../img/john.png')
+			background-repeat: no-repeat
+			background-position: center
+
+	&__name
+		display: block
+
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		color: #000
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 30px
+
+	&__prof
+		display: block
+
+		color: #000
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 18px
+
+
+	&__comment
+		max-width: 539px
+		margin-bottom: 40px
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 18px
+
+	&__next
+		margin-bottom: 70px
+
+		text-align: right
+		a
+			color: #000
+
+			font-family: 'AgoraThin', sans-serif
+			font-size: 16px
+
+.info
+	padding-top: 91px
+	padding-bottom: 119px
+
+	text-align: center
+
+	&__item
+		width: 314px
+		margin-bottom: 75px
+
+	&__header
+		margin-bottom: 6px
+		padding-top: 15px
+		padding-bottom: 12px
+
+		text-transform: uppercase
+
+		border-top-left-radius: 8px
+		border-top-right-radius: 8px
+		background-color: #ffd200
+		h3
+			letter-spacing: 1px
+
+			color: #000
+
+			font-family: 'AgoraLight', sans-serif
+			font-size: 28px
+		span
+			font-size: 36px
+
+
+	&__content
+		min-height: 236px
+		padding: 20px
+
+		text-align: left
+
+		color: #000
+		border-bottom-right-radius: 8px
+		border-bottom-left-radius: 8px
+		background-color: #f7f0e6
+
+		font-family: 'AgoraRegular', sans-serif
+		font-size: 18px
+
+		b
+			color: #e11a27
+
+			font-weight: bold
+
+
+.footer
+	padding-top: 80px
+	padding-bottom: 53px
+
+	text-align: center
+
+	background-color: #ffd200
+
+	&__links
+		position: relative
+
+		margin-bottom: 50px
+		padding: 0
+
+		list-style: none
+
+		text-align: left
+		li
+			a
+				color: #000
+
+				font-family: 'AgoraRegular', sans-serif
+				font-size: 18px
+		&::before
+			position: absolute
+			top: -30px
+			left: 0
+
+			width: 152px
+			height: 1px
+
+			content: ""
+
+			background-color: #000
+
+	&__copyrights
+		color: #000
+
+		font-family: 'AgoraRegular', sans-serif
+		font-size: 18px
+
+.socials
+	padding-right: 43px
+
+	text-align: right
+
+	font-size: 0
+	&::before
+		position: absolute
+		top: -30px
+		right: 0
+
+		width: 152px
+		height: 1px
+
+		content: ""
+
+		background-color: #000
+	&__btn
+		position: relative
+
+		display: inline-block
+
+		width: 24px
+		height: 24px
+		margin-left: 18px
+
+		text-decoration: none
+		&::before
+			position: absolute
+			top: 0
+			right: 0
+
+			width: 24px
+			height: 24px
+
+			content: ""
+
+			background-repeat: no-repeat
+			background-position: center
+		&--fb
+			&::before
+				background-image: url('../img/fb.png')
+		&--vk
+			&::before
+				background-image: url('../img/vk.png')
+		&--inst
+			&::before
+				background-image: url('../img/instagram.png')
